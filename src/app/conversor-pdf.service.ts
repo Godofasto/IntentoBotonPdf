@@ -24,7 +24,7 @@ export class ConversorPDFService {
             doc.setDrawColor(0);
             doc.setFillColor(255, 255, 255);
             doc.rect(0, 0, doc.internal.pageSize.width, 50, 'F'); // Rectángulo blanco en la cabecera
-
+            doc.rect(0, 585, doc.internal.pageSize.width, 50, 'F');
             doc.setFontSize(10);
             
             doc.setTextColor(0, 0, 0);
@@ -44,7 +44,7 @@ export class ConversorPDFService {
       },
       x: 10,
       y: -23,
-      margin:[50,0,0,0],
+      margin:[50,0,50,0],
       autoPaging:'text',
       width: anchoContenido,
       windowWidth: anchoMarco
