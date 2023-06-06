@@ -1,0 +1,66 @@
+/* @import '../../../../scss/index.scss';
+
+button {
+    border-radius: .25rem;
+    border-color: $primary;
+    background: $primary;
+    color: $light;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &:hover{
+        background: $light;
+        color: $primary !important;
+    }
+
+    &:disabled{
+        background-color: #c9c7c2;
+        color: $primary !important;
+    }
+
+    &:disabled:hover{
+        background-color: #c9c7c2;
+        color: $primary !important;
+    }
+}
+.borde {
+    border: 1px solid $primary;
+    box-sizing: border-box;
+    border-radius: $border-radius-generic !important;
+    margin-bottom: 0.5rem;
+    padding: 0;
+} */
+@font-face {
+    font-family: f;
+    src: url('../assets/FuenteTitulo.otf');
+}
+.titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    font-weight: 900;
+}
+td{
+    font-size: 14px;
+    
+}
+.botonAlbaran{
+    top: 370px;
+    left: 760px;
+    position: absolute;
+}
+
+.separador{
+    
+    height: 180px;
+    transform-origin: 50% bottom;
+    transform: scaleY(0.7);
+   
+}
+tr{
+    vertical-align: bottom;
+}
+.separadorAltura{
+    height: 25px;
+}
